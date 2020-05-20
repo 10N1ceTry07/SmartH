@@ -3,4 +3,10 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="Black">#95000000</color>
+    <color name="White">#ffffff</color>
+    <color name="nine">#d9a2a5</color>
+    <color name="ninen">#a40000</color>
+
+
 </resources>
