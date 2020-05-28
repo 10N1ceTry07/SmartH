@@ -4,49 +4,74 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingTop="20sp"
+        android:paddingBottom="4sp"
+        android:text="Реєстрація"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#D9A2A5"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525" />
 
     <EditText
         android:id="@+id/eMail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="335dp"
-        android:layout_marginEnd="93dp"
-        android:layout_marginBottom="28dp"
+        android:layout_width="304dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/fields"
         android:ems="10"
+        android:fontFamily="monospace"
+        android:hint=" Email"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/password"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="7dp"
+        android:textColor="#a40000"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="93dp"
-        android:layout_marginBottom="44dp"
+        android:layout_width="304dp"
+        android:layout_height="40dp"
+        android:background="@drawable/fields"
         android:ems="10"
+        android:fontFamily="monospace"
+        android:hint=" Пароль"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/regButton"
+        android:padding="7dp"
+        android:textColor="#a40000"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eMail" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716" />
 
     <Button
         android:id="@+id/regButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="171dp"
-        android:text="Button"
+        android:layout_width="209dp"
+        android:layout_height="43dp"
+        android:background="@drawable/fields"
+        android:fontFamily="monospace"
+        android:text="Зареєструватися"
+        android:textColor="@color/ninen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.812" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

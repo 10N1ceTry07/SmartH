@@ -20,24 +20,24 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="300dp"
-            android:layout_marginRight="40dp"
-            android:fontFamily="monospace"
-            android:paddingTop="20sp"
-            android:paddingBottom="4sp"
-            android:text="Авторизація"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textColor="#D9A2A5"
-            android:textSize="24sp"
-            android:visibility="visible" />
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="monospace"
+        android:paddingTop="20sp"
+        android:paddingBottom="4sp"
+        android:text="Авторизація"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#D9A2A5"
+        android:textSize="24sp"
+        android:visibility="visible" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
@@ -52,7 +52,7 @@
             android:textColor="#a40000" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
@@ -67,7 +67,7 @@
             android:textColor="#a40000" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
@@ -78,11 +78,13 @@
             android:text="Увійти"
             android:textColor="@color/ninen" />
 
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            app:srcCompat="@drawable/checkbox0" />
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Немає аккаунта?" />
 
 
     </LinearLayout>
